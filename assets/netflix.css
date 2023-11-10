@@ -1,0 +1,129 @@
+
+ *{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif; 
+}
+p{
+    display: block;
+}
+body{
+    background-color: black;
+}
+ .background-image{
+    background-image: url("title-image.png");
+    background-size: 100%;
+    height: 700px;
+    
+}
+.navigation-bar{
+    display: flex;
+}
+.logo-container{
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 50px;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+    height: 25px;
+}
+.nav-text{
+    flex: 1;
+    margin-left: 20px;
+    color: rgb(252, 252, 252);
+    font-weight: 400;
+    opacity: .9;
+}
+.icons{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.search-icon,.gift-icon,.bell-icon,.downarrow{
+    height: 20px;
+    
+}
+.show-name-container{
+    margin-top: 300px;
+    margin-left:60px;
+}
+.show-name{
+    font-size: 120px;
+    color: white;
+    font-weight: 600;
+}
+.NlogoRGB{
+    width: 20px;
+}
+.show{
+    margin-left: 5px;
+    color:white;
+    font-weight: 600;
+}
+.small-logo{
+    display: flex;
+    align-items: center;
+}
+.play-button,.more-info-button{
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px 15px;
+
+}
+.actions{
+    display: flex;
+}
+.more-info-button{
+    background-color: rgb(248, 226, 226);
+    margin-left: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    column-gap: 7px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.text{
+    margin-left: 20px;
+    color: white;
+}
+.column1,.column2,.column3,.column4{
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    margin-right: 50px;
+    color: white;
+    font-size: 15px;
+}
+footer{
+    margin-left: 300px;
+    
+}
+.footer{
+    width: 1000px;
+}
+.dontknow{
+    color: white;
+    border: 2px solid rgb(250, 245, 245);
+    display: inline;
+    padding: 10px;
+}
+.rank1,.rank2,.rank3,.rank4,.rank5{
+    width: 130px;
+}
+.something{
+    margin-bottom: 50px;
+}
+.first-grid{
+    margin-top: -10px;
+}
+.endline{
+    color: white;
+    margin-top: 15px;
+}
